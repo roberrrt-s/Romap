@@ -147,7 +147,7 @@ var initMap = function() {
   	});
 
 	marker9.addListener('click', function() {
-        infowindow8.open(map, marker9);
+        infowindow9.open(map, marker9);
 	});
 
 }
