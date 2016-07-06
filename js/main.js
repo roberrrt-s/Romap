@@ -136,18 +136,51 @@ var initMap = function() {
 
 	// NEW ENTRY
     var infowindow9 = new google.maps.InfoWindow({
-      content: "Paletijnse heuvel (grootste van de 7 heuvels van Rome"
+      content: "Paletijns (grootste van de 7 heuvels van Rome)"
     });
 
 	var marker9 = new google.maps.Marker({
 	    position: {lat: 41.889404, lng: 12.487466},
 	    map: map,
 	    animation: google.maps.Animation.DROP,
-    	title: "Paletijnse heuvel"
+    	title: "Paletijn"
   	});
 
 	marker9.addListener('click', function() {
         infowindow9.open(map, marker9);
+	});
+
+	// NEW ENTRY
+    var infowindow10 = new google.maps.InfoWindow({
+      content: "Aeroporto di Roma Fiumicino"
+    });
+
+	var marker10 = new google.maps.Marker({
+	    position: {lat: 41.792079, lng: 12.252331},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+    	title: "Aeroporto di Roma Fiumicino"
+  	});
+
+	marker10.addListener('click', function() {
+        infowindow10.open(map, marker10);
+	});
+
+
+	// NEW ENTRY
+    var infowindow11 = new google.maps.InfoWindow({
+      content: "Dierentuin van Rome"
+    });
+
+	var marker11 = new google.maps.Marker({
+	    position: {lat: 41.917116, lng: 12.487764},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+    	title: "Aeroporto di Roma Fiumicino"
+  	});
+
+	marker11.addListener('click', function() {
+        infowindow11.open(map, marker11);
 	});
 
 }
